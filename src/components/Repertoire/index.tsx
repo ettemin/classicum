@@ -5,25 +5,25 @@ import Image from "next/image";
 const composerData = [
   {
     name: "Antonio Vivaldi",
-    image: "/composer/Vivaldi.jpg",
+    image: "/classicum/composer/Vivaldi.jpg",
     period: "1678-1741",
     knownFor: "The Four Seasons, Gloria, L'Olimpiade",
   },
   {
     name: "Luigi Boccherini",
-    image: "/composer/boccherini-portrait.jpeg",
+    image: "/classicum/composer/boccherini-portrait.jpeg",
     period: "1743-1805",
     knownFor: "String Quintet in E major, Cello Concerto in B-flat major",
   },
   {
     name: "Giuseppe Verdi",
-    image: "/composer/verdi-portrait.jpg",
+    image: "/classicum/composer/verdi-portrait.jpg",
     period: "1813-1901",
     knownFor: "La Traviata, Rigoletto, Aida",
   },
   {
     name: "Giacomo Puccini",
-    image: "/composer/puccini-portrait.jpg",
+    image: "/classicum/composer/puccini-portrait.jpg",
     period: "1858-1924",
     knownFor: "La Bohème, Tosca, Madama Butterfly",
   },

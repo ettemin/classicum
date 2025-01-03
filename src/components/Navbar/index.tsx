@@ -93,7 +93,7 @@ export const Navbar: React.FC = () => {
             <Link href="/" className="block text-orange-100">
               <span className="sr-only">Home</span>
               <Image
-                src="/logo/Logo Concerts Classicum Light Colored.png" // Path to your PNG logo in the public directory
+                src="/classicum/logo/Logo Concerts Classicum Light Colored.png" // Path to your PNG logo in the public directory
                 alt="CLASSICUM Logo"
                 width={200} // Set the desired width
                 height={50}

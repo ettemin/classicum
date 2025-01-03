@@ -4,7 +4,7 @@ import { Music, Users, Church } from "lucide-react";
 const About = () => {
   return (
     <section id="about" className="relative bg-neutral-900 py-24">
-      <div className="absolute inset-0 bg-[url('/background/ornate-cathedral-ceiling.jpg')] bg-cover bg-center opacity-10" />
+      <div className="absolute inset-0 bg-[url('/classicum/background/ornate-cathedral-ceiling.jpg')] bg-cover bg-center opacity-10" />
 
       <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
