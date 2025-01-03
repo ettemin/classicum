@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section id="home" className="relative bg-neutral-900 pt-24 min-h-screen">
-      <div className="absolute inset-0 bg-[url('/background/orchestra-violins.jpg')] bg-cover bg-center opacity-90 mix-blend-overlay" />
+      <div className="absolute inset-0 bg-[url('/classicum/background/orchestra-violins.jpg')] bg-cover bg-center opacity-90 mix-blend-overlay" />
 
       <div className="relative grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
