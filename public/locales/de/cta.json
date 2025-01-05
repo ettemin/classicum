@@ -1,0 +1,13 @@
+{
+  "cta": {
+    "title": "Reservieren Sie Ihren Platz im Paradies",
+    "description": "Tickets für unsere Konzerte sind über unsere vertrauenswürdigen Partner erhältlich. Verpassen Sie nicht die Gelegenheit, an diesem außergewöhnlichen Musikerlebnis teilzunehmen.",
+    "bookButton": {
+      "text": "Jetzt Buchen",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "Wir bieten auch spezielle Tarife und Pakete für Gruppen an. Kontaktieren Sie uns direkt für weitere Informationen."
+    }
+  }
+}

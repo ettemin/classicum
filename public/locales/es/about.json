@@ -1,0 +1,20 @@
+{
+  "about": {
+    "title": "Excelencia Clásica en un Marco Histórico",
+    "description": "Adéntrese en la magnífica Chiesa Santa Maria degli Angeli, donde siglos de arte italiano convergen en una velada inolvidable de obras maestras clásicas. Nuestros conciertos le transportarán a través del tiempo, con composiciones que definieron el legado musical de Italia, interpretadas por distinguidos músicos en un auténtico entorno barroco.",
+    "features": [
+      {
+        "title": "Entorno Íntimo",
+        "description": "Experimente la música clásica en la atmósfera íntima de una iglesia del siglo XVI, donde cada nota resuena con un significado histórico."
+      },
+      {
+        "title": "Programa Comisariado",
+        "description": "Cada actuación combina cuidadosamente clásicos queridos con joyas conocidas del repertorio italiano, creando un viaje a través del rico patrimonio musical de Italia."
+      },
+      {
+        "title": "Músicos Expertos",
+        "description": "Nuestro conjunto está formado por artistas consumados dedicados a las prácticas de interpretación auténticas, que dan vida a composiciones centenarias."
+      }
+    ]
+  }
+}

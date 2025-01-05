@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "title": "Contattaci",
+    "concertVenue": {
+      "title": "Sede del Concerto",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 Milano, Italia"
+      }
+    },
+    "performanceSchedule": {
+      "title": "Orario degli Spettacoli",
+      "schedule": {
+        "line1": "Ogni sabato",
+        "line2": "21:00 - 22:00"
+      }
+    },
+    "getInTouch": {
+      "title": "Mettiti in Contatto",
+      "email": {
+        "label": "E-mail",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Vive la Magia",
+    "schedule": {
+      "line1": "Todos los Sábados | 9:00 PM - 10:00 PM",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Milán"
+    },
+    "description": "Únase a nosotros para una velada encantadora de música clásica en vivo en el corazón de Milán. Sumérjase en la belleza atemporal de un cuarteto de cuerdas en vivo, rodeado por el ambiente histórico de esta icónica iglesia.",
+    "bookButton": "Reservar Ahora"
+  }
+}

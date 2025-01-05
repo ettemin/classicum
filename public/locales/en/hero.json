@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Experience the Magic",
+    "schedule": {
+      "line1": "Every Saturday | 9:00 PM - 10:00 PM",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Milano"
+    },
+    "description": "Join us for an enchanting evening of live classical music in the heart of Milano. Immerse yourself in the timeless beauty of a live string quartet, surrounded by the historic ambiance of this iconic church.",
+    "bookButton": "Book Now"
+  }
+}

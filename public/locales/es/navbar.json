@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "about": "Acerca de",
+    "repertoire": "Repertorio",
+    "vision": "Visión",
+    "contact": "Contacto",
+    "chooseLanguage": "Elegir idioma",
+    "bookNow": "Reservar ahora",
+    "languages": {
+      "en-US": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      }
+    }
+  }
+}

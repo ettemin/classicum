@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "concertVenue": {
+      "title": "Veranstaltungsort",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 Mailand, Italien"
+      }
+    },
+    "performanceSchedule": {
+      "title": "Aufführungsplan",
+      "schedule": {
+        "line1": "Jeden Samstag",
+        "line2": "21:00 - 22:00 Uhr"
+      }
+    },
+    "getInTouch": {
+      "title": "Nehmen Sie Kontakt auf",
+      "email": {
+        "label": "E-Mail",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "footer": {
+    "brandDescription": "Erleben Sie die zeitlose Schönheit der klassischen Musik im Herzen von Mailand.",
+    "quickLinks": {
+      "title": "Schnellzugriff",
+      "about": "Über uns",
+      "repertoire": "Repertoire",
+      "vision": "Vision",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "Piazza Sant'Angelo 2, 20121 Mailand",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

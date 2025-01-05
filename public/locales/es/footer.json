@@ -1,0 +1,21 @@
+{
+  "footer": {
+    "brandDescription": "Experimente la belleza atemporal de la música clásica en el corazón de Milán.",
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "about": "Acerca de",
+      "repertoire": "Repertorio",
+      "vision": "Visión",
+      "contact": "Contacto"
+    },
+    "contact": {
+      "title": "Contacto",
+      "address": "Piazza Sant'Angelo 2, 20121 Milán",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  }
+}

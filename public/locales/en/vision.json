@@ -1,0 +1,15 @@
+{
+  "vision": {
+    "title": "Our Vision & Mission",
+    "visionTitle": "Vision",
+    "visionDescription": "To create transformative musical experiences that bridge past and present, connecting audiences with Italy's extraordinary cultural heritage through the timeless power of classical music.",
+    "missionTitle": "Mission",
+    "missionDescription": "We are dedicated to:",
+    "missionPoints": [
+      "Preserving and celebrating Italy's classical music tradition",
+      "Making extraordinary musical experiences accessible to all audiences",
+      "Supporting emerging artists while honoring historical performance practices",
+      "Creating meaningful connections between Italy's architectural and musical heritage"
+    ]
+  }
+}

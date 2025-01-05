@@ -1,0 +1,15 @@
+{
+  "vision": {
+    "title": "Nuestra Visión y Misión",
+    "visionTitle": "Visión",
+    "visionDescription": "Crear experiencias musicales transformadoras que unan el pasado y el presente, conectando al público con el extraordinario patrimonio cultural de Italia a través del poder atemporal de la música clásica.",
+    "missionTitle": "Misión",
+    "missionDescription": "Estamos dedicados a:",
+    "missionPoints": [
+      "Preservar y celebrar la tradición de la música clásica italiana",
+      "Hacer que las experiencias musicales extraordinarias sean accesibles para todos los públicos",
+      "Apoyar a los artistas emergentes a la vez que se honran las prácticas de interpretación histórica",
+      "Crear conexiones significativas entre el patrimonio arquitectónico y musical de Italia"
+    ]
+  }
+}

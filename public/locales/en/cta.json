@@ -1,0 +1,13 @@
+{
+  "cta": {
+    "title": "Reserve Your Place in Paradise",
+    "description": "Tickets for our concerts are available through our trusted partners. Don't miss the opportunity to participate in this exceptional musical experience.",
+    "bookButton": {
+      "text": "Book Now",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "We also offer special rates and packages for groups. Contact us directly for more information."
+    }
+  }
+}

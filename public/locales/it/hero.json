@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Vivi la Magia",
+    "schedule": {
+      "line1": "Ogni Sabato | 21:00 - 22:00",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Milano"
+    },
+    "description": "Unitevi a noi per un'incantevole serata di musica classica dal vivo nel cuore di Milano. Immergetevi nella bellezza senza tempo di un quartetto d'archi dal vivo, circondati dall'atmosfera storica di questa iconica chiesa.",
+    "bookButton": "Prenota Ora"
+  }
+}

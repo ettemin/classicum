@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "about": "关于",
+    "repertoire": "曲目",
+    "vision": "愿景",
+    "contact": "联系方式",
+    "chooseLanguage": "选择语言",
+    "bookNow": "立即预订",
+    "languages": {
+      "en-US": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      }
+    }
+  }
+}
