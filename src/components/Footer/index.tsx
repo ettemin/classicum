@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="space-y-6">
             <Link href="/" className="block">
               <Image
-                src="/classicum/logo/Logo Concerts Classicum Light Colored.png" // Path to your PNG logo in the public directory
+                src="/logo/Logo Concerts Classicum Light Colored.png" // Path to your PNG logo in the public directory
                 alt="CLASSICUM Logo"
                 width={200} // Set the desired width
                 height={50}
