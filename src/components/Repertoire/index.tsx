@@ -17,7 +17,7 @@ const composerData = [
   },
   {
     name: "Giuseppe Verdi",
-    image: "/classicum/composer/verdi-portrait.jpg",
+    image: "/composer/verdi-portrait.jpg",
     period: "1813-1901",
     knownFor: "La Traviata, Rigoletto, Aida",
   },
