@@ -1,0 +1,162 @@
+{
+  "about": {
+    "title": "Eccellenza Classica in una Cornice Storica",
+    "description": "Entrate nella magnifica Chiesa Santa Maria degli Angeli, dove secoli di arte italiana convergono in una serata indimenticabile di capolavori classici. I nostri concerti vi trasporteranno attraverso il tempo, con composizioni che hanno definito l'eredità musicale italiana, eseguite da musicisti illustri in un'autentica cornice barocca.",
+    "features": [
+      {
+        "title": "Ambiente Intimo",
+        "description": "Vivete la musica classica nell'atmosfera intima di una chiesa del XVI secolo, dove ogni nota risuona di significato storico."
+      },
+      {
+        "title": "Programma Curato",
+        "description": "Ogni performance combina in modo ponderato amati classici con gemme conosciute del repertorio italiano, creando un viaggio attraverso il ricco patrimonio musicale italiano."
+      },
+      {
+        "title": "Musicisti Esperti",
+        "description": "Il nostro ensemble comprende artisti affermati dediti a pratiche esecutive autentiche, che riportano in vita composizioni secolari."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "concertVenue": {
+      "title": "Sede del Concerto",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 Milano, Italia"
+      }
+    },
+    "performanceSchedule": {
+      "title": "Orario degli Spettacoli",
+      "schedule": {
+        "line1": "Ogni sabato",
+        "line2": "21:00 - 22:00"
+      }
+    },
+    "getInTouch": {
+      "title": "Mettiti in Contatto",
+      "email": {
+        "label": "E-mail",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  },
+  "cta": {
+    "title": "Assicuratevi il Vostro Posto in Paradiso",
+    "description": "I biglietti per i nostri concerti sono disponibili attraverso i nostri partner di fiducia. Non perdete l'occasione di partecipare a questa eccezionale esperienza musicale.",
+    "bookButton": {
+      "text": "Prenota Ora",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "Offriamo anche tariffe speciali e pacchetti per gruppi. Contattateci direttamente per maggiori informazioni."
+    }
+  },
+  "footer": {
+    "brandDescription": "Scopri la bellezza senza tempo della musica classica nel cuore di Milano.",
+    "quickLinks": {
+      "title": "Link Rapidi",
+      "about": "Chi siamo",
+      "repertoire": "Repertorio",
+      "vision": "Visione",
+      "contact": "Contatti"
+    },
+    "contact": {
+      "title": "Contatti",
+      "address": "Piazza Sant'Angelo 2, 20121 Milano",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. Tutti i diritti riservati.",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio"
+  },
+  "hero": {
+    "title": "Vivi la Magia",
+    "schedule": {
+      "line1": "Ogni Sabato | 21:00 - 22:00",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Milano"
+    },
+    "description": "Unitevi a noi per un'incantevole serata di musica classica dal vivo nel cuore di Milano. Immergetevi nella bellezza senza tempo di un quartetto d'archi dal vivo, circondati dall'atmosfera storica di questa iconica chiesa.",
+    "bookButton": "Prenota Ora"
+  },
+  "navbar": {
+    "about": "Chi siamo",
+    "repertoire": "Repertorio",
+    "vision": "Visione",
+    "contact": "Contatti",
+    "chooseLanguage": "Scegli la lingua",
+    "bookNow": "Prenota ora",
+    "languages": {
+      "en": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      },
+      "fr": {
+        "name": "Français",
+        "flag": "/flags/fr.svg"
+      },
+      "es": {
+        "name": "Español",
+        "flag": "/flags/es.svg"
+      }
+    }
+  },
+  "repertoire": {
+    "title": "Repertorio",
+    "description": "Il nostro programma accuratamente curato comprende una selezione di opere iconiche di leggendari compositori italiani. Dal dramma delle opere di Verdi alla passione dei concerti di Vivaldi, ogni performance è una celebrazione del ricco patrimonio musicale italiano.",
+    "composers": [
+      {
+        "name": "Antonio Vivaldi",
+        "period": "1678-1741",
+        "knownFor": "Le quattro stagioni, Gloria, L'Olimpiade"
+      },
+      {
+        "name": "Luigi Boccherini",
+        "period": "1743-1805",
+        "knownFor": "Quintetto per archi in mi maggiore, Concerto per violoncello in si bemolle maggiore"
+      },
+      {
+        "name": "Giuseppe Verdi",
+        "period": "1813-1901",
+        "knownFor": "La Traviata, Rigoletto, Aida"
+      },
+      {
+        "name": "Giacomo Puccini",
+        "period": "1858-1924",
+        "knownFor": "La Bohème, Tosca, Madama Butterfly"
+      }
+    ]
+  },
+  "vision": {
+    "title": "La Nostra Visione e Missione",
+    "visionTitle": "Visione",
+    "visionDescription": "Creare esperienze musicali trasformative che uniscano passato e presente, collegando il pubblico allo straordinario patrimonio culturale italiano attraverso il potere senza tempo della musica classica.",
+    "missionTitle": "Missione",
+    "missionDescription": "Ci dedichiamo a:",
+    "missionPoints": [
+      "Preservare e celebrare la tradizione della musica classica italiana",
+      "Rendere le esperienze musicali straordinarie accessibili a tutti i tipi di pubblico",
+      "Supportare gli artisti emergenti onorando le pratiche esecutive storiche",
+      "Creare connessioni significative tra il patrimonio architettonico e musicale italiano"
+    ]
+  }
+}

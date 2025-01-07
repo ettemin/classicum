@@ -38,3 +38,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#custom scripts
+file_structure_generator.py
+file_structure.txt
+merge_json.py

@@ -1,0 +1,162 @@
+{
+  "about": {
+    "title": "Classical Excellence in a Historic Setting",
+    "description": "Step into the magnificent Chiesa Santa Maria degli Angeli, where centuries of Italian artistry converge in an unforgettable evening of classical masterpieces. Our concerts transport you through time, featuring compositions that defined Italy's musical legacy, performed by distinguished musicians in an authentic baroque setting.",
+    "features": [
+      {
+        "title": "Intimate Setting",
+        "description": "Experience classical music in the intimate atmosphere of a 16th-century church, where every note resonates with historical significance."
+      },
+      {
+        "title": "Curated Program",
+        "description": "Each performance thoughtfully combines beloved classics with known gems of the Italian repertoire, creating a journey through Italy's rich musical heritage."
+      },
+      {
+        "title": "Expert Musicians",
+        "description": "Our ensemble comprises accomplished artists dedicated to authentic performance practices, bringing centuries-old compositions to vivid life."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "concertVenue": {
+      "title": "Concert Venue",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 Milan, Italy"
+      }
+    },
+    "performanceSchedule": {
+      "title": "Performance Schedule",
+      "schedule": {
+        "line1": "Every Saturday",
+        "line2": "9:00 PM - 10:00 PM"
+      }
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "email": {
+        "label": "Email",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  },
+  "cta": {
+    "title": "Reserve Your Place in Paradise",
+    "description": "Tickets for our concerts are available through our trusted partners. Don't miss the opportunity to participate in this exceptional musical experience.",
+    "bookButton": {
+      "text": "Book Now",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "We also offer special rates and packages for groups. Contact us directly for more information."
+    }
+  },
+  "footer": {
+    "brandDescription": "Experience the timeless beauty of classical music in the heart of Milan.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About",
+      "repertoire": "Repertoire",
+      "vision": "Vision",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Piazza Sant'Angelo 2, 20121 Milan",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "hero": {
+    "title": "Experience the Magic",
+    "schedule": {
+      "line1": "Every Saturday | 9:00 PM - 10:00 PM",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Milano"
+    },
+    "description": "Join us for an enchanting evening of live classical music in the heart of Milano. Immerse yourself in the timeless beauty of a live string quartet, surrounded by the historic ambiance of this iconic church.",
+    "bookButton": "Book Now"
+  },
+  "navbar": {
+    "about": "About",
+    "repertoire": "Repertoire",
+    "vision": "Vision",
+    "contact": "Contact",
+    "chooseLanguage": "Choose language",
+    "bookNow": "Book Now",
+    "languages": {
+      "en": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      },
+      "fr": {
+        "name": "Français",
+        "flag": "/flags/fr.svg"
+      },
+      "es": {
+        "name": "Español",
+        "flag": "/flags/es.svg"
+      }
+    }
+  },
+  "repertoire": {
+    "title": "Repertoire",
+    "description": "Our carefully curated program includes a selection of iconic works by legendary Italian composers. From the drama of Verdi's operas to the passion of Vivaldi's concertos, each performance is a celebration of Italy's rich musical heritage.",
+    "composers": [
+      {
+        "name": "Antonio Vivaldi",
+        "period": "1678-1741",
+        "knownFor": "The Four Seasons, Gloria, L'Olimpiade"
+      },
+      {
+        "name": "Luigi Boccherini",
+        "period": "1743-1805",
+        "knownFor": "String Quintet in E major, Cello Concerto in B-flat major"
+      },
+      {
+        "name": "Giuseppe Verdi",
+        "period": "1813-1901",
+        "knownFor": "La Traviata, Rigoletto, Aida"
+      },
+      {
+        "name": "Giacomo Puccini",
+        "period": "1858-1924",
+        "knownFor": "La Bohème, Tosca, Madama Butterfly"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Our Vision & Mission",
+    "visionTitle": "Vision",
+    "visionDescription": "To create transformative musical experiences that bridge past and present, connecting audiences with Italy's extraordinary cultural heritage through the timeless power of classical music.",
+    "missionTitle": "Mission",
+    "missionDescription": "We are dedicated to:",
+    "missionPoints": [
+      "Preserving and celebrating Italy's classical music tradition",
+      "Making extraordinary musical experiences accessible to all audiences",
+      "Supporting emerging artists while honoring historical performance practices",
+      "Creating meaningful connections between Italy's architectural and musical heritage"
+    ]
+  }
+}

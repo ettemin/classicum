@@ -1,0 +1,162 @@
+{
+  "about": {
+    "title": "Klassische Exzellenz in historischer Umgebung",
+    "description": "Treten Sie ein in die prachtvolle Chiesa Santa Maria degli Angeli, wo Jahrhunderte italienischer Kunst in einem unvergesslichen Abend klassischer Meisterwerke zusammenkommen. Unsere Konzerte entführen Sie auf eine Zeitreise mit Kompositionen, die das musikalische Erbe Italiens prägten, aufgeführt von renommierten Musikern in einem authentischen Barockrahmen.",
+    "features": [
+      {
+        "title": "Intime Atmosphäre",
+        "description": "Erleben Sie klassische Musik in der intimen Atmosphäre einer Kirche aus dem 16. Jahrhundert, in der jede Note von historischer Bedeutung ist."
+      },
+      {
+        "title": "Kuratiertes Programm",
+        "description": "Jede Aufführung kombiniert sorgfältig beliebte Klassiker mit bekannten Juwelen des italienischen Repertoires und schafft so eine Reise durch Italiens reiches musikalisches Erbe."
+      },
+      {
+        "title": "Erfahrene Musiker",
+        "description": "Unser Ensemble besteht aus versierten Künstlern, die sich authentischen Aufführungspraktiken verschrieben haben und jahrhundertealte Kompositionen lebendig werden lassen."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "concertVenue": {
+      "title": "Veranstaltungsort",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 Mailand, Italien"
+      }
+    },
+    "performanceSchedule": {
+      "title": "Aufführungsplan",
+      "schedule": {
+        "line1": "Jeden Samstag",
+        "line2": "21:00 - 22:00 Uhr"
+      }
+    },
+    "getInTouch": {
+      "title": "Nehmen Sie Kontakt auf",
+      "email": {
+        "label": "E-Mail",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  },
+  "cta": {
+    "title": "Reservieren Sie Ihren Platz im Paradies",
+    "description": "Tickets für unsere Konzerte sind über unsere vertrauenswürdigen Partner erhältlich. Verpassen Sie nicht die Gelegenheit, an diesem außergewöhnlichen Musikerlebnis teilzunehmen.",
+    "bookButton": {
+      "text": "Jetzt Buchen",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "Wir bieten auch spezielle Tarife und Pakete für Gruppen an. Kontaktieren Sie uns direkt für weitere Informationen."
+    }
+  },
+  "footer": {
+    "brandDescription": "Erleben Sie die zeitlose Schönheit der klassischen Musik im Herzen von Mailand.",
+    "quickLinks": {
+      "title": "Schnellzugriff",
+      "about": "Über uns",
+      "repertoire": "Repertoire",
+      "vision": "Vision",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "Piazza Sant'Angelo 2, 20121 Mailand",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "hero": {
+    "title": "Erleben Sie den Zauber",
+    "schedule": {
+      "line1": "Jeden Samstag | 21:00 - 22:00 Uhr",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "Piazza Sant'Angelo 2, Mailand"
+    },
+    "description": "Erleben Sie einen bezaubernden Abend mit klassischer Live-Musik im Herzen von Mailand. Tauchen Sie ein in die zeitlose Schönheit eines Streichquartetts, umgeben vom historischen Ambiente dieser ikonischen Kirche.",
+    "bookButton": "Jetzt Buchen"
+  },
+  "navbar": {
+    "about": "Über uns",
+    "repertoire": "Repertoire",
+    "vision": "Vision",
+    "contact": "Kontakt",
+    "chooseLanguage": "Sprache auswählen",
+    "bookNow": "Jetzt buchen",
+    "languages": {
+      "en": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      },
+      "fr": {
+        "name": "Français",
+        "flag": "/flags/fr.svg"
+      },
+      "es": {
+        "name": "Español",
+        "flag": "/flags/es.svg"
+      }
+    }
+  },
+  "repertoire": {
+    "title": "Repertoire",
+    "description": "Unser sorgfältig zusammengestelltes Programm umfasst eine Auswahl ikonischer Werke legendärer italienischer Komponisten. Vom Drama der Verdi-Opern bis zur Leidenschaft der Vivaldi-Konzerte ist jede Aufführung eine Feier des reichen musikalischen Erbes Italiens.",
+    "composers": [
+      {
+        "name": "Antonio Vivaldi",
+        "period": "1678-1741",
+        "knownFor": "Die vier Jahreszeiten, Gloria, L'Olimpiade"
+      },
+      {
+        "name": "Luigi Boccherini",
+        "period": "1743-1805",
+        "knownFor": "Streichquintett in E-Dur, Cellokonzert in B-Dur"
+      },
+      {
+        "name": "Giuseppe Verdi",
+        "period": "1813-1901",
+        "knownFor": "La Traviata, Rigoletto, Aida"
+      },
+      {
+        "name": "Giacomo Puccini",
+        "period": "1858-1924",
+        "knownFor": "La Bohème, Tosca, Madama Butterfly"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Unsere Vision & Mission",
+    "visionTitle": "Vision",
+    "visionDescription": "Transformative Musikerlebnisse zu schaffen, die Vergangenheit und Gegenwart verbinden und das Publikum durch die zeitlose Kraft der klassischen Musik mit Italiens außergewöhnlichem kulturellen Erbe in Berührung bringen.",
+    "missionTitle": "Mission",
+    "missionDescription": "Wir widmen uns:",
+    "missionPoints": [
+      "Bewahrung und Feier der klassischen Musiktradition Italiens",
+      "Außergewöhnliche Musikerlebnisse für alle Zuschauer zugänglich machen",
+      "Unterstützung aufstrebender Künstler unter Wahrung historischer Aufführungspraktiken",
+      "Schaffung sinnvoller Verbindungen zwischen dem architektonischen und musikalischen Erbe Italiens"
+    ]
+  }
+}

@@ -1,43 +1,59 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useMemo } from "react";
 import Link from "next/link";
 import { X, Menu } from "lucide-react";
 import Image from "next/image";
 
+import { useTranslations, useLocale } from "next-intl";
+import { Link as IntLink, usePathname } from "@/i18n/routing";
+
 interface LanguageOption {
   code: string;
   name: string;
-  flag: string;
 }
 
-const languages: LanguageOption[] = [
-  {
-    code: "en-US",
-    name: "English (US)",
-    flag: "/flags/us.svg",
-  },
-  {
-    code: "de",
-    name: "Deutsch",
-    flag: "/flags/de.svg",
-  },
-  {
-    code: "it",
-    name: "Italiano",
-    flag: "/flags/it.svg",
-  },
-  {
-    code: "zh",
-    name: "中文 (繁體)",
-    flag: "/flags/cn.svg",
-  },
-];
-
 export const Navbar: React.FC = () => {
+  const t = useTranslations("navbar");
+  const locale = useLocale();
+  const pathname = usePathname();
+
+  // Use useMemo to memoize the languages array
+  const languages: LanguageOption[] = useMemo(
+    () => [
+      {
+        code: "en",
+        name: t("languages.en.name"),
+      },
+      {
+        code: "de",
+        name: t("languages.de.name"),
+      },
+      {
+        code: "it",
+        name: t("languages.it.name"),
+      },
+      {
+        code: "es",
+        name: t("languages.es.name"),
+      },
+      {
+        code: "fr",
+        name: t("languages.fr.name"),
+      },
+      {
+        code: "zh",
+        name: t("languages.zh.name"),
+      },
+    ],
+    [t]
+  ); // Dependency on 't'
+
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] =
     React.useState(false);
-  const [selectedLanguage, setSelectedLanguage] = React.useState(languages[0]);
+  const [selectedLanguage, setSelectedLanguage] = React.useState(
+    languages.find((lang) => lang.code === locale) || languages[0]
+  );
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   const mobileMenuRef = useRef<HTMLDivElement>(null);
@@ -85,6 +101,12 @@ export const Navbar: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    setSelectedLanguage(
+      languages.find((lang) => lang.code === locale) || languages[0]
+    );
+  }, [locale, languages]);
+
   return (
     <header className="fixed z-50 w-full top-0 text-white backdrop-blur-md bg-black/50">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -116,7 +138,7 @@ export const Navbar: React.FC = () => {
                       setIsMobileMenuOpen(false); // Optional: Close mobile menu
                     }}
                   >
-                    About
+                    {t("about")}
                   </Link>
                 </li>
                 <li>
@@ -129,7 +151,7 @@ export const Navbar: React.FC = () => {
                     }}
                     className="hover:text-gray-300"
                   >
-                    Repertoire
+                    {t("repertoire")}
                   </Link>
                 </li>
                 <li>
@@ -142,7 +164,7 @@ export const Navbar: React.FC = () => {
                       setIsMobileMenuOpen(false); // Optional: Close mobile menu
                     }}
                   >
-                    Vision
+                    {t("vision")}
                   </Link>
                 </li>
                 <li>
@@ -155,7 +177,7 @@ export const Navbar: React.FC = () => {
                     className="hover:text-gray-300"
                     href="#contact"
                   >
-                    Contact
+                    {t("contact")}
                   </Link>
                 </li>
                 <li className="relative">
@@ -165,7 +187,7 @@ export const Navbar: React.FC = () => {
                       onClick={toggleDropdown}
                       className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-lg cursor-pointer hover:text-gray-300"
                     >
-                      <span className="sr-only">Choose language</span>
+                      <span className="sr-only">{t("chooseLanguage")}</span>
                       {selectedLanguage.name}
                     </button>
 
@@ -181,14 +203,16 @@ export const Navbar: React.FC = () => {
                               (lang) => lang.code !== selectedLanguage.code
                             )
                             .map((language) => (
-                              <button
+                              <IntLink
                                 key={language.code}
+                                href={pathname}
+                                locale={language.code}
                                 onClick={() => handleLanguageChange(language)}
                                 className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 role="menuitem"
                               >
                                 {language.name}
-                              </button>
+                              </IntLink>
                             ))}
                         </div>
                       </div>
@@ -200,12 +224,13 @@ export const Navbar: React.FC = () => {
 
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4 max-md:hidden">
-                <Link
+                <IntLink
                   className="rounded-md bg-orange-100 px-5 py-2.5 text-sm font-medium text-black shadow hover:bg-orange-200"
                   href="/book"
+                  locale={locale}
                 >
-                  Book Now
-                </Link>
+                  {t("bookNow")}
+                </IntLink>
               </div>
 
               {/* Mobile Menu Button */}
@@ -236,7 +261,7 @@ export const Navbar: React.FC = () => {
         {isMobileMenuOpen && (
           <div
             ref={mobileMenuRef}
-            className="md:hidden fixed left-0 right-0 top-16 bg-black/90 backdrop-blur-lg transform transition-transform duration-200 ease-in-out"
+            className="md:hidden fixed left-0 right-0 top-16 bg-black/100 backdrop-blur-lg transform transition-transform duration-200 ease-in-out"
             style={{
               animation: "slideDown 0.2s ease-out forwards",
             }}
@@ -245,38 +270,38 @@ export const Navbar: React.FC = () => {
               <ul className="flex flex-col items-center space-y-6">
                 <li>
                   <Link
-                    href="/about"
+                    href="#about"
                     className="text-white text-lg hover:text-gray-300"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    About
+                    {t("about")}
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/repertoire"
+                    href="#repertoire"
                     className="text-white text-lg hover:text-gray-300"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Repertoire
+                    {t("repertoire")}
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/vision"
+                    href="#vision"
                     className="text-white text-lg hover:text-gray-300"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Vision
+                    {t("vision")}
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="#contact"
                     className="text-white text-lg hover:text-gray-300"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Contact
+                    {t("contact")}
                   </Link>
                 </li>
                 <li className="w-full">
@@ -289,7 +314,7 @@ export const Navbar: React.FC = () => {
                       onClick={toggleDropdown}
                       className="inline-flex items-center font-medium justify-center px-4 py-2 text-lg text-white rounded-lg cursor-pointer hover:text-gray-300"
                     >
-                      <span className="sr-only">Choose language</span>
+                      <span className="sr-only">{t("chooseLanguage")}</span>
                       {selectedLanguage.name}
                     </button>
 
@@ -305,8 +330,10 @@ export const Navbar: React.FC = () => {
                               (lang) => lang.code !== selectedLanguage.code
                             )
                             .map((language) => (
-                              <button
+                              <IntLink
                                 key={language.code}
+                                href={pathname}
+                                locale={language.code}
                                 onClick={() => {
                                   handleLanguageChange(language);
                                   setIsMobileMenuOpen(false);
@@ -315,7 +342,7 @@ export const Navbar: React.FC = () => {
                                 role="menuitem"
                               >
                                 {language.name}
-                              </button>
+                              </IntLink>
                             ))}
                         </div>
                       </div>
@@ -323,13 +350,14 @@ export const Navbar: React.FC = () => {
                   </div>
                 </li>
                 <li className="pt-4">
-                  <Link
-                    href="/book"
+                  <IntLink
+                    href="#book"
+                    locale={locale}
                     className="inline-block rounded-md bg-orange-100 px-6 py-3 text-base font-medium text-black shadow hover:bg-orange-200"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Book Now
-                  </Link>
+                    {t("bookNow")}
+                  </IntLink>
                 </li>
               </ul>
             </nav>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
             <p className="text-lg md:text-xl font-medium">
               Chiesa Santa Maria degli Angeli
               <br />
-              Piazza Sant&apos;Angelo 2, Milano
+              Piazza Sant'Angelo 2, Milano
             </p>
           </div>
 
@@ -27,7 +28,7 @@ const Hero = () => {
             string quartet, surrounded by the historic ambiance of this iconic
             church.
           </p>
-          <a
+          <Link
             href="/book"
             className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-orange-100 hover:bg-orange-200"
           >
@@ -44,7 +45,7 @@ const Hero = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex"></div>
       </div>

@@ -1,0 +1,162 @@
+{
+  "about": {
+    "title": "历史殿堂中的古典卓越",
+    "description": "步入辉煌的 Chiesa Santa Maria degli Angeli，在这里，数百年的意大利艺术精粹汇聚成一个难忘的古典杰作之夜。我们的音乐会将带您穿越时空，由杰出的音乐家在纯正的巴洛克环境中演奏，展现意大利音乐遗产的经典作品。",
+    "features": [
+      {
+        "title": "私密环境",
+        "description": "在 16 世纪教堂的私密氛围中体验古典音乐，每一个音符都回响着历史意义。"
+      },
+      {
+        "title": "精选曲目",
+        "description": "每场演出都精心挑选了深受喜爱的经典曲目和意大利曲库中已知的瑰宝，为您打造一场穿越意大利丰富音乐遗产的旅程。"
+      },
+      {
+        "title": "专业音乐家",
+        "description": "我们的乐团由技艺精湛的艺术家组成，致力于纯正的演奏实践，将数百年前的乐曲生动地展现出来。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系我们",
+    "concertVenue": {
+      "title": "音乐会场地",
+      "address": {
+        "line1": "Chiesa Santa Maria degli Angeli",
+        "line2": "Piazza Sant'Angelo 2",
+        "line3": "20121 意大利米兰"
+      }
+    },
+    "performanceSchedule": {
+      "title": "演出时间安排",
+      "schedule": {
+        "line1": "每周六",
+        "line2": "晚上 9:00 - 晚上 10:00"
+      }
+    },
+    "getInTouch": {
+      "title": "联系方式",
+      "email": {
+        "label": "电子邮箱",
+        "address": "classicalromanceconcerts@gmail.com"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "handle": "@classicalromanceconcerts"
+      }
+    }
+  },
+  "cta": {
+    "title": "预订您的天堂席位",
+    "description": "您可以通过我们信任的合作伙伴购买音乐会门票。千万不要错过参与这一非凡音乐体验的机会。",
+    "bookButton": {
+      "text": "立即预订",
+      "link": "/book"
+    },
+    "groupOffers": {
+      "description": "我们也为团体提供特殊费率和套餐。请直接联系我们以获取更多信息。"
+    }
+  },
+  "footer": {
+    "brandDescription": "在米兰的中心体验古典音乐的永恒之美。",
+    "quickLinks": {
+      "title": "快速链接",
+      "about": "关于",
+      "repertoire": "曲目",
+      "vision": "愿景",
+      "contact": "联系方式"
+    },
+    "contact": {
+      "title": "联系方式",
+      "address": "Piazza Sant'Angelo 2, 20121 米兰",
+      "email": "classicalromanceconcerts@gmail.com",
+      "instagram": "@classicalromanceconcerts"
+    },
+    "copyright": "© 2024 Classical Romance Concerts. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "hero": {
+    "title": "体验魔力",
+    "schedule": {
+      "line1": "每周六 | 晚上 9:00 - 晚上 10:00",
+      "line2": "Chiesa Santa Maria degli Angeli",
+      "line3": "米兰圣安杰洛广场 2 号"
+    },
+    "description": "加入我们，在米兰市中心享受一个迷人的古典音乐现场之夜。沉浸在现场弦乐四重奏的永恒之美中，周围环绕着这座标志性教堂的历史氛围。",
+    "bookButton": "立即预订"
+  },
+  "navbar": {
+    "about": "关于",
+    "repertoire": "曲目",
+    "vision": "愿景",
+    "contact": "联系方式",
+    "chooseLanguage": "选择语言",
+    "bookNow": "立即预订",
+    "languages": {
+      "en": {
+        "name": "English (US)",
+        "flag": "/flags/us.svg"
+      },
+      "de": {
+        "name": "Deutsch",
+        "flag": "/flags/de.svg"
+      },
+      "it": {
+        "name": "Italiano",
+        "flag": "/flags/it.svg"
+      },
+      "zh": {
+        "name": "中文 (繁體)",
+        "flag": "/flags/cn.svg"
+      },
+      "fr": {
+        "name": "Français",
+        "flag": "/flags/fr.svg"
+      },
+      "es": {
+        "name": "Español",
+        "flag": "/flags/es.svg"
+      }
+    }
+  },
+  "repertoire": {
+    "title": "演奏曲目",
+    "description": "我们精心策划的演出曲目包括一系列意大利传奇作曲家的标志性作品。从威尔第歌剧的戏剧性到维瓦尔第协奏曲的激情，每场演出都是对意大利丰富音乐遗产的颂扬。",
+    "composers": [
+      {
+        "name": "安东尼奥·维瓦尔第",
+        "period": "1678-1741",
+        "knownFor": "《四季》、《荣耀经》、《奥林匹亚德》"
+      },
+      {
+        "name": "路易吉·博凯里尼",
+        "period": "1743-1805",
+        "knownFor": "《E大调弦乐五重奏》、《降B大调大提琴协奏曲》"
+      },
+      {
+        "name": "朱塞佩·威尔第",
+        "period": "1813-1901",
+        "knownFor": "《茶花女》、《弄臣》、《阿依达》"
+      },
+      {
+        "name": "贾科莫·普契尼",
+        "period": "1858-1924",
+        "knownFor": "《波西米亚人》、《托斯卡》、《蝴蝶夫人》"
+      }
+    ]
+  },
+  "vision": {
+    "title": "我们的愿景与使命",
+    "visionTitle": "愿景",
+    "visionDescription": "通过古典音乐的永恒力量，创造连接过去与现在的变革性音乐体验，让观众领略意大利非凡的文化遗产。",
+    "missionTitle": "使命",
+    "missionDescription": "我们致力于：",
+    "missionPoints": [
+      "保护和颂扬意大利的古典音乐传统",
+      "让所有观众都能获得非凡的音乐体验",
+      "支持新兴艺术家，同时尊重历史表演实践",
+      "在意大利的建筑遗产和音乐遗产之间建立有意义的联系"
+    ]
+  }
+}
