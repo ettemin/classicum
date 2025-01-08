@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "@/app/globals.css";
 import { NextIntlClientProvider } from "next-intl";
@@ -10,49 +9,24 @@ const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
 });
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
-export const metadata: Metadata = {
-  title: "Classicum | Milan String Quartet Concerts",
-  description:
-    "Experience the magic of live classical music in Milan. Enjoy intimate string quartet performances within the historic ambiance of a stunning monument. Book your unique cultural escape today!",
-  keywords: [
-    "live classical music",
-    "string quartet",
-    "Milan",
-    "milan",
-    "classical concert",
-    "historic monument",
-    "cultural event",
-    "live music",
-    "chamber music",
-    "concert in milan",
-    "things to do in milan",
-    "unique experience",
-    "music performance",
-    "classical music concert",
-    "milano",
-    "Milano",
-    "italian music",
-    "string music",
-  ],
-  robots: {
-    index: true,
-    follow: true,
-    nosnippet: false,
-  },
-  authors: [{ name: "Classicum Team" }],
-  publisher: "Classicum",
-};
+type SegmentParams<T extends object = any> = T extends Record<string, any>
+  ? {
+      [K in keyof T]: T[K] extends string
+        ? string | string[] | undefined
+        : never;
+    }
+  : T;
 
-export default async function RootLayout({
-  children,
-  params,
-}: Readonly<{
-  children: React.ReactNode;
-  params: { locale: string };
-}>) {
+interface LayoutProps {
+  children?: React.ReactNode;
+
+  params?: Promise<SegmentParams>;
+}
+
+export default async function LocaleLayout({ children, params }: LayoutProps) {
   const { locale } = await params;
-
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }

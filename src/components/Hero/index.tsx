@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="text-lg md:text-xl font-medium">
               Chiesa Santa Maria degli Angeli
               <br />
-              Piazza Sant'Angelo 2, Milano
+              Piazza Sant&apos;Angelo 2, Milano
             </p>
           </div>
 

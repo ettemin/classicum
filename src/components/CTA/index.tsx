@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, Users } from "lucide-react";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -20,13 +21,13 @@ const CTA = () => {
             </p>
 
             <div className="mb-12">
-              <a
+              <Link
                 href="/book"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-black rounded-lg bg-orange-100 hover:bg-orange-200 transition-all duration-300 transform hover:scale-105"
               >
                 Book Now
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
+              </Link>
             </div>
 
             <div className="bg-black/40 backdrop-blur-sm p-6 rounded-lg border border-gray-800 inline-flex items-center gap-4">
