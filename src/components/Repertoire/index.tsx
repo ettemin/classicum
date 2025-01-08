@@ -1,35 +1,18 @@
 import React from "react";
 import { Music2 } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
-const composerData = [
-  {
-    name: "Antonio Vivaldi",
-    image: "/composer/Vivaldi.jpg",
-    period: "1678-1741",
-    knownFor: "The Four Seasons, Gloria, L'Olimpiade",
-  },
-  {
-    name: "Luigi Boccherini",
-    image: "/composer/boccherini-portrait.jpeg",
-    period: "1743-1805",
-    knownFor: "String Quintet in E major, Cello Concerto in B-flat major",
-  },
-  {
-    name: "Giuseppe Verdi",
-    image: "/composer/verdi-portrait.jpg",
-    period: "1813-1901",
-    knownFor: "La Traviata, Rigoletto, Aida",
-  },
-  {
-    name: "Giacomo Puccini",
-    image: "/composer/puccini-portrait.jpg",
-    period: "1858-1924",
-    knownFor: "La Bohème, Tosca, Madama Butterfly",
-  },
-];
+interface Composer {
+  name: string;
+  period: string;
+  knownFor: string;
+}
 
 const Repertoire = () => {
+  const t = useTranslations("repertoire");
+  const composerData = t.raw("composers");
+
   return (
     <section id="repertoire" className="relative bg-neutral-900 py-24">
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent" />
@@ -40,18 +23,15 @@ const Repertoire = () => {
             <Music2 className="w-8 h-8 text-orange-100" />
           </div>
           <h2 className="text-4xl font-extrabold text-white mb-6">
-            Repertoire
+            {t("title")}
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-gray-300">
-            Our carefully curated program includes a selection of iconic works
-            by legendary Italian composers. From the drama of Verdi&apos;s
-            operas to the passion of Vivaldi&apos;s concertos, each performance
-            is a celebration of Italy&apos;s rich musical heritage.
+            {t("description")}
           </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
-          {composerData.map((composer) => (
+          {composerData?.map((composer: Composer) => (
             <div
               key={composer.name}
               className="group bg-black/40 backdrop-blur-sm rounded-xl overflow-hidden border border-gray-800 transition-all duration-300 hover:border-orange-100/30 p-6 text-center"
@@ -59,7 +39,9 @@ const Repertoire = () => {
               <div className="relative w-32 h-32 mx-auto mb-4">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-t from-black/80 to-transparent" />
                 <Image
-                  src={composer.image}
+                  src={`/composer/${
+                    composer.name.split(" ").pop()?.toLowerCase() ?? ""
+                  }-portrait.jpg`}
                   alt={composer.name}
                   width={200}
                   height={200}

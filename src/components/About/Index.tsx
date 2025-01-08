@@ -1,7 +1,9 @@
 import React from "react";
 import { Music, Users, Church } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const About = () => {
+  const t = useTranslations("about");
   return (
     <section id="about" className="relative bg-neutral-900 py-24">
       <div className="absolute inset-0 bg-[url('/background/ornate-cathedral-ceiling.jpg')] bg-cover bg-center opacity-10" />
@@ -9,15 +11,10 @@ const About = () => {
       <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl font-extrabold text-white mb-6">
-            Classical Excellence in a Historic Setting
+            {t("title")}
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-gray-300">
-            Step into the magnificent Chiesa Santa Maria degli Angeli, where
-            centuries of Italian artistry converge in an unforgettable evening
-            of classical masterpieces. Our concerts transport you through time,
-            featuring compositions that defined Italy&apos;s musical legacy,
-            performed by distinguished musicians in an authentic baroque
-            setting.
+            {t("description")}
           </p>
         </div>
 
@@ -27,13 +24,9 @@ const About = () => {
               <Church className="w-6 h-6 text-orange-100" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              Intimate Setting
+              {t("features.0.title")}
             </h3>
-            <p className="text-gray-300">
-              Experience classical music in the intimate atmosphere of a
-              16th-century church, where every note resonates with historical
-              significance.
-            </p>
+            <p className="text-gray-300">{t("features.0.description")}</p>
           </div>
 
           <div className="bg-black/50 backdrop-blur-sm p-8 rounded-lg border  hover:border-orange-100/30 border-gray-800">
@@ -41,13 +34,9 @@ const About = () => {
               <Music className="w-6 h-6 text-orange-100" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              Curated Program
+              {t("features.1.title")}
             </h3>
-            <p className="text-gray-300">
-              Each performance thoughtfully combines beloved classics with known
-              gems of the Italian repertoire, creating a journey through
-              Italy&apos;s rich musical heritage.
-            </p>
+            <p className="text-gray-300">{t("features.1.description")}</p>
           </div>
 
           <div className="bg-black/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800  hover:border-orange-100/30">
@@ -55,13 +44,9 @@ const About = () => {
               <Users className="w-6 h-6 text-orange-100" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              Expert Musicians
+              {t("features.2.title")}
             </h3>
-            <p className="text-gray-300">
-              Our ensemble comprises accomplished artists dedicated to authentic
-              performance practices, bringing centuries-old compositions to
-              vivid life.
-            </p>
+            <p className="text-gray-300">{t("features.2.description")}</p>
           </div>
         </div>
       </div>

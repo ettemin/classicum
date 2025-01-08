@@ -1,8 +1,10 @@
 import React from "react";
 import { ArrowRight, Users } from "lucide-react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const CTA = () => {
+  const t = useTranslations("cta");
   return (
     <section className="relative bg-neutral-900 py-24">
       {/* Decorative gradient background */}
@@ -12,20 +14,16 @@ const CTA = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center">
             <h2 className="text-4xl font-extrabold text-white mb-6">
-              Reserve Your Place in Paradise
+              {t("title")}
             </h2>
-            <p className="text-xl text-gray-300 mb-12">
-              Tickets for our concerts are available through our trusted
-              partners. Don&apos;t miss the opportunity to participate in this
-              exceptional musical experience.
-            </p>
+            <p className="text-xl text-gray-300 mb-12">{t("description")}</p>
 
             <div className="mb-12">
               <Link
-                href="/book"
+                href={t("bookButton.link")}
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-black rounded-lg bg-orange-100 hover:bg-orange-200 transition-all duration-300 transform hover:scale-105"
               >
-                Book Now
+                {t("bookButton.text")}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </div>
@@ -35,8 +33,7 @@ const CTA = () => {
                 <Users className="w-5 h-5 text-orange-100" />
               </div>
               <p className="text-gray-300 text-sm">
-                We also offer special rates and packages for groups. Contact us
-                directly for more information.
+                {t("groupOffers.description")}
               </p>
             </div>
           </div>
