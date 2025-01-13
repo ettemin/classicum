@@ -38,11 +38,11 @@
       "title": "Póngase en Contacto",
       "email": {
         "label": "Correo Electrónico",
-        "address": "classicalromanceconcerts@gmail.com"
+        "address": "info@classicum.it"
       },
       "instagram": {
         "label": "Instagram",
-        "handle": "@classicalromanceconcerts"
+        "handle": "@classicum.concerts"
       }
     }
   },
@@ -69,10 +69,10 @@
     "contact": {
       "title": "Contacto",
       "address": "Piazza Sant'Angelo 2, 20121 Milán",
-      "email": "classicalromanceconcerts@gmail.com",
-      "instagram": "@classicalromanceconcerts"
+      "email": "info@classicum.it",
+      "instagram": "@classicum.concerts"
     },
-    "copyright": "© 2024 Classical Romance Concerts. Todos los derechos reservados.",
+    "copyright": "© 2025 Classicum. Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
   },

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Experience world-class classical music performances in stunning historic venues and monuments across Europe. Live concerts, unique locations, unforgettable moments.",
   keywords:
-    "classical music, concerts, historic venues, monuments, classical performances, live music",
+    "classical music, concerts, historic venues, monuments, classical performances, live music, milan, Milan, Milano, Mailand",
   authors: [{ name: "Classicum" }],
   creator: "Classicum",
   publisher: "Classicum",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Classicum | Classical Concerts in Historic Venues",
     description:
       "Experience classical music performances in stunning historic venues",
-    url: "https://classicum.com",
+    url: "https://classicum.it",
     siteName: "Classicum",
     images: [
       {
