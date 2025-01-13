@@ -28,7 +28,7 @@ const Hero = () => {
             {t("description")}
           </p>
           <Link
-            href="/book"
+            href="https://www.eventbrite.it/e/classicum-classical-music-concerts-in-historic-venues-tickets-1152135812229?aff=oddtdtcreator"
             className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-orange-100 hover:bg-orange-200"
           >
             {t("bookButton")}

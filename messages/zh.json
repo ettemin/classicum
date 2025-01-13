@@ -38,7 +38,7 @@
       "title": "联系方式",
       "email": {
         "label": "电子邮箱",
-        "address": "info@classicum.it"
+        "address": "classicumit@gmail.com"
       },
       "instagram": {
         "label": "Instagram",
@@ -51,7 +51,7 @@
     "description": "您可以通过我们信任的合作伙伴购买音乐会门票。千万不要错过参与这一非凡音乐体验的机会。",
     "bookButton": {
       "text": "立即预订",
-      "link": "/book"
+      "link": "https://www.eventbrite.it/e/classicum-classical-music-concerts-in-historic-venues-tickets-1152135812229?aff=oddtdtcreator"
     },
     "groupOffers": {
       "description": "我们也为团体提供特殊费率和套餐。请直接联系我们以获取更多信息。"
@@ -69,7 +69,7 @@
     "contact": {
       "title": "联系方式",
       "address": "Piazza Sant'Angelo 2, 20121 米兰",
-      "email": "info@classicum.it",
+      "email": "classicumit@gmail.com",
       "instagram": "@classicum.concerts"
     },
     "copyright": "© 2025 Classicum. 保留所有权利。",

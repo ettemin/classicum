@@ -38,7 +38,7 @@
       "title": "Nous Contacter",
       "email": {
         "label": "E-mail",
-        "address": "info@classicum.it"
+        "address": "classicumit@gmail.com"
       },
       "instagram": {
         "label": "Instagram",
@@ -51,7 +51,7 @@
     "description": "Les billets pour nos concerts sont disponibles auprès de nos partenaires de confiance. Ne manquez pas l'opportunité de participer à cette expérience musicale exceptionnelle.",
     "bookButton": {
       "text": "Réserver Maintenant",
-      "link": "/book"
+      "link": "https://www.eventbrite.it/e/classicum-classical-music-concerts-in-historic-venues-tickets-1152135812229?aff=oddtdtcreator"
     },
     "groupOffers": {
       "description": "Nous proposons également des tarifs spéciaux et des forfaits pour les groupes. Contactez-nous directement pour plus d'informations."
@@ -69,7 +69,7 @@
     "contact": {
       "title": "Contact",
       "address": "Piazza Sant'Angelo 2, 20121 Milan",
-      "email": "info@classicum.it",
+      "email": "classicumit@gmail.com",
       "instagram": "@classicum.concerts"
     },
     "copyright": "© 2025 Classicum. Tous droits réservés.",

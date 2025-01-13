@@ -226,7 +226,7 @@ export const Navbar: React.FC = () => {
               <div className="sm:flex sm:gap-4 max-md:hidden">
                 <IntLink
                   className="rounded-md bg-orange-100 px-5 py-2.5 text-sm font-medium text-black shadow hover:bg-orange-200"
-                  href="/book"
+                  href="https://www.eventbrite.it/e/classicum-classical-music-concerts-in-historic-venues-tickets-1152135812229?aff=oddtdtcreator"
                   locale={locale}
                 >
                   {t("bookNow")}
@@ -351,7 +351,7 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li className="pt-4">
                   <IntLink
-                    href="#book"
+                    href="https://www.eventbrite.it/e/classicum-classical-music-concerts-in-historic-venues-tickets-1152135812229?aff=oddtdtcreator"
                     locale={locale}
                     className="inline-block rounded-md bg-orange-100 px-6 py-3 text-base font-medium text-black shadow hover:bg-orange-200"
                     onClick={() => setIsMobileMenuOpen(false)}
