@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Classicum",
     images: [
       {
-        url: "/public/background/string-quartet-cathedral-playing.png",
+        url: "https://classicum.it/background/string-quartet-cathedral-playing.png",
         width: 1200,
         height: 630,
         alt: "Classicum - Classical Concerts",
@@ -40,7 +40,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Classicum | Classical Concerts",
     description: "Experience classical music in historic venues",
-    images: ["/public/background/string-quartet-cathedral-playing.png"],
+    images: [
+      "https://classicum.it/background/string-quartet-cathedral-playing.png",
+    ],
     creator: "@classicum",
   },
 };
